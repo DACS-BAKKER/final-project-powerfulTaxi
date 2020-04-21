@@ -1,0 +1,32 @@
+Tetris Perfect Clear Finder Proposal/Overview
+
+Background 
+
+A Perfect Clear is when you completely clear the board in tetris (no filled columns/rows). It should look the same as when you started the game. 
+
+Example: https://harddrop.com/fumen/?v115@vhKxOJKkB+lBjfBHsBNrBkhBDtBCtBhxBAAA
+( Using: I , L, J , O , S, T , Z , O , L , I)
+
+Failed Example: https://harddrop.com/fumen/?v115@vhDhOJywBVyBAAA
+ 
+In modern tetris, doing this will greatly increase your score because it is very difficult to do.
+
+Objective
+
+Create a perfect clear finder 
+	Input: 10 tetris blocks
+	Output: Placement of 10 blocks to do perfect clear (Color coded 2D Array)
+
+Classes
+	Solver
+	Piece - Coordinates
+	Board - 2d Array
+	Stack
+	Queue
+	Priority Queue
+
+Schedule
+	Week 1 - DFS
+	Week 2 - BFS
+	Week 3&4 - Best FS
+
